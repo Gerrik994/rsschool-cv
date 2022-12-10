@@ -3,7 +3,7 @@
 ### Ilia Zuev
 ***
 ### Contacts:
-- Discord: Gerrik9549#
+- Discord: Gerrik#9549
 - Phone: +79521291436 (WhatsApp or Telegramm preferably)
 - E-mail: zuevi123@gmail.com
 ***
