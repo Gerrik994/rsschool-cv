@@ -32,5 +32,5 @@ function multiply(a, b){
 ## Languages:
 - Russian
 - English
-  - Level B1 by [https://test.str.by/](https://test.str.by/) 
+  - Level B1 by [https://test.str.by/](https://test.str.by/)
   - Basic Education in school with deep study English
