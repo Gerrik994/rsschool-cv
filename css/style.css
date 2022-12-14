@@ -33,21 +33,17 @@ body {
 html {
   scroll-behavior: smooth;
 }
-.section-item a {
-  color: #829985;
-  text-decoration: none;  
-  transition: color 0.5s;
-}
-.section-item a:hover {
-  color: #4d2323;
-}
 .main-container {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+
 }
 .section {
   width: 50%;
-  text-align: center;
+  text-align: left;
 }
 @media (max-width: 768px) {
   .section {
@@ -71,5 +67,23 @@ html {
   vertical-align: middle;
 
 }
+.section-title {
+  text-align: center;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
 
-
+}
+.footer-img {
+  height: 64px;
+  width: auto;
+}
+.git-icon {
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  align-items: flex-end;
+}
