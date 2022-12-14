@@ -8,7 +8,7 @@
 ## About me:
 I'm 28 years old and now working at wood workshop.  It was intresting work but it is not that I want to do.
 
-Three years ago I was working at shop of construction materials and there it was possible to edit Opencart template without some background. It was so intresting but then I did not think about a career at IT because I think that for this you must need a specialty.
+Three years ago I was working at shop of construction materials and there it was possible to edit Opencart template without some background. It was so intresting but then I did not think about a career at IT because I think that for this you must necessarily need a specialty.
 
 After a while, I knowed that the profession of a developer does not necessarily require a higher education and and now I have some time to learn a new profession and I really want to become a Front-end Developer.
 ***
