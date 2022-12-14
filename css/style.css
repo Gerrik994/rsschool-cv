@@ -1,3 +1,45 @@
+@font-face {
+  font-family: 'Unbounded', sans-serif;
+  src: url("assets/fonts/Unbounded-VariableFont_wght")
+}
+@font-face {
+  font-family: 'NanumGothic', sans-serif;
+  src: url("assets/fonts/NanumGothic-Regular")
+}
 body {
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section-title
+{
+  font-family: 'Unbounded', sans-serif;
+  font-weight: bold;
+}
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section-item a {
+  color: #829985;
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+.section-item a:hover {
+  color: #4d2323;
 }
