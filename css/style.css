@@ -1,51 +1,78 @@
 @font-face {
-  font-family: 'Unbounded', sans-serif;
-  src: url("assets/fonts/Unbounded-VariableFont_wght")
+  font-family: 'Unbounded';
+  src: url('../assets/fonts/Unbounded-Regular.ttf');
 }
+
 @font-face {
-  font-family: 'NanumGothic', sans-serif;
-  src: url("assets/fonts/NanumGothic-Regular")
+  font-family: 'Nanum Gothic';
+  src: url('../assets/fonts/NanumGothic-Regular.ttf');
 }
+
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0;
+  font: 20px 'Nanum Gothic', sans-serif;
+  background-color: #858585;
 }
+
+header {
+  margin: 0;
+  width: 100%;
+  background-color: #434549;
+}
+
+a {
+  text-decoration-line: none;
+  color: #ffffff;
+}
+
 .section-title
 {
-  font-family: 'Unbounded', sans-serif;
-  font-weight: bold;
+  font: bold 24px 'Unbounded', cursive;
 }
+
 .container{
-  max-width: 1440px;
   margin: 0 auto;
+  max-width: 1440px;
 }
+
 .nav-list {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
 }
+
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
+  font-size: 24px;
 }
+
+.nav-link:hover {
+  border-radius: 5px;
+  background-color: #707070;
+}
+
 html {
   scroll-behavior: smooth;
 }
+
 .main-container {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom: 5%;
-
+  margin: 5% 20%;
 }
+
 .section {
   width: 50%;
   text-align: left;
+  border-bottom: 2px solid #000000;
 }
-@media (max-width: 768px) {
+
+@media (max-width: 1024px) {
   .section {
     width: 100%;
   }
@@ -53,6 +80,7 @@ html {
     display: none;
   }
 }
+
 .img {
   border-radius: 50px;
   max-width: 240px;
@@ -64,26 +92,24 @@ html {
   justify-content: space-around;
   vertical-align: middle;
   text-align: center;
-  vertical-align: middle;
-
 }
+
 .section-title {
   text-align: center;
 }
+
 .footer-list {
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
-
 }
+
 .footer-img {
   height: 64px;
   width: auto;
 }
-.git-icon {
-  display: flex;
-  justify-content: right;
-  text-align: right;
-  align-items: flex-end;
+
+.invisible {
+  display: none;
 }
